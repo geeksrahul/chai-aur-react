@@ -7,7 +7,7 @@ function App() {
   let [count,setCount] = useState(0);
   function handleClick() {
     count++;
-    setCount(count); // replicate change in component anywhere
+    setCount(count); // replicate change in component anywher
     console.log(count);
   }
   return (
